@@ -1,0 +1,102 @@
+html {
+    border-left: 10px solid lightgray;
+    margin-left: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    max-width: 1000px;
+    font-family: monospace;
+    padding: 0 3rem;
+}
+
+.title {
+    color: tomato;
+    font-size: 3em;
+}
+
+.date {
+    color: lightgray;
+    font-size: 35px;
+}
+
+.article-title {
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-header ul li a {
+    color: lightgray;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.nav-footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 2px;
+    padding: 0;
+}
+
+.nav-footer ul li a {
+    color: tomato;
+    font-size: 18px;
+    margin-right: 2px;
+    text-decoration: none;
+    
+}
+
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article p::first-letter {
+    color: lightgray;
+    float:left;
+    font-weight: bold;
+    font-size: 60px;
+    font-size: 6rem;
+    line-height: 40px;
+    line-height: 4rem;
+    height:4rem;
+    text-transform: uppercase;
+}
+
+article p {
+    line-height: 1.8em;
+}
+
+.article-continue {
+    color: tomato;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div .article-continue {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyright {
+    color: lightgray;
+    font-size: 15px;
+}
