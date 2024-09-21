@@ -1,5 +1,5 @@
 html {
-    border-left: 10px solid lightgray;
+    border-left: 10px solid #e0e0e0;
     margin-left: 10px;
 }
 
@@ -9,22 +9,32 @@ body {
     justify-content: center;
     min-height: 100%;
     max-width: 1000px;
-    font-family: monospace;
-    padding: 0 3rem;
+    font-family: sans-serif ;
+    padding: 0 3rem 3rem 3rem;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
 }
 
 .title {
-    color: tomato;
-    font-size: 3em;
+    color: #de3b30;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    font-size: 1.8em;
 }
 
 .date {
-    color: lightgray;
+    color: #e0e0e0;
     font-size: 35px;
 }
 
 .article-title {
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -40,7 +50,7 @@ img {
 }
 
 .nav-header ul li a {
-    color: lightgray;
+    color: #e0e0e0;
     margin-right: 20px;
     font-size: 25px;
 }
@@ -52,10 +62,11 @@ img {
     align-items: center;
     gap: 2px;
     padding: 0;
+    color: #e0e0e0;
 }
 
 .nav-footer ul li a {
-    color: tomato;
+    color: #de3b30;
     font-size: 18px;
     margin-right: 2px;
     text-decoration: none;
@@ -86,7 +97,7 @@ article p {
 }
 
 .article-continue {
-    color: tomato;
+    color: #de3b30;
     text-decoration: none;
     font-size: 20px;
 }
@@ -98,5 +109,5 @@ div .article-continue {
 
 .copyright {
     color: lightgray;
-    font-size: 15px;
+    font-size: 18px;
 }
